@@ -100,8 +100,8 @@ def alert(frame):
     # Gets recipient email from external file which user sets from the settings menu
     
     subject = f"Alert on {time}" # Email subject
-    sender = "kinshuk.dosi@gmail.com" # Email sender
-    password = "lduiuhkmqibjjpwg" # Password to email account
+    sender = "" # Email sender
+    password = "" # Password to email account
 
     message = MIMEMultipart() # Email multipart object to allow for attachments to be attached
     message['Subject'] = subject # Sets the message subject
