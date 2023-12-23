@@ -11,6 +11,7 @@ required python libraries: opencv2, face_recognition, pickle, os, datetime, smtp
 <h1>To run:</h1>
 1. create folders within the images folder titled with the names of the people that have photos within them (one folder per person)
   you can add as many photos as you want of the same person, the more you add, the more information is stored and the more accurate the recognition is likely to be
-2. run update.py
+  <br>
+2. run update.py <br>
 3. run main.py
 
