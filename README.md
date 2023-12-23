@@ -1,4 +1,4 @@
-<b>Python real-time facial recognition system</b>
+<h1><b>Python real-time facial recognition system</b></h1>
 
 
 real-time facial recognition system that can identify the person by comparing them to previously stored data/an image
@@ -8,4 +8,9 @@ must set sender email and password in main.py, and recipient email in alertemail
 
 required python libraries: opencv2, face_recognition, pickle, os, datetime, smtplib, email, tkinter
 
-<img width="582" alt="Screenshot 2023-12-23 at 12 57 00" src="https://github.com/kinshukdosi/realtime-facial-recognition/assets/107861190/201b1b63-7a58-4f47-b33f-fc2339b8ac72">
+<h1>To run:</h1>
+1. create folders within the images folder titled with the names of the people that have photos within them (one folder per person)
+  you can add as many photos as you want of the same person, the more you add, the more information is stored and the more accurate the recognition is likely to be
+2. run update.py
+3. run main.py
+
