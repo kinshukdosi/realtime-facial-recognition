@@ -11,7 +11,7 @@ def getCameraList():
     for camera in cameras:
         cameralist.append(camera.strip())
         # git testing
-
+        # aaaaa
     return cameralist
 
 print(getCameraList())
