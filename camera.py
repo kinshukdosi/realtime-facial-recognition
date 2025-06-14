@@ -10,6 +10,7 @@ def getCameraList():
     cameralist = []
     for camera in cameras:
         cameralist.append(camera.strip())
+        # git testing
 
     return cameralist
 
